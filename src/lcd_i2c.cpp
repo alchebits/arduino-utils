@@ -1,4 +1,4 @@
-// #include <Arduino.h>
+
 // /*
 // *  LCM1602 & Arduino Uno
 // *  VCC - > 5 V
@@ -6,11 +6,11 @@
 // *  SCL -> A5
 // *  SDA -> A4
 // */
-//
+// #include <Arduino.h>
 // #include <Wire.h>   // standardowa biblioteka Arduino
 // #include <LiquidCrystal_I2C.h> // dolaczenie pobranej biblioteki I2C dla LCD
 //
-// LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Ustawienie adresu ukladu na 0x27
+// LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Ustawienie adresu ukladu na 0x3F
 //
 //
 // void setup()
