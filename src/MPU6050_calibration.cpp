@@ -65,7 +65,7 @@
 //   TWBR = 24; // 400kHz I2C clock (200kHz if CPU is 8MHz). Leonardo measured 250kHz.
 //
 //   // initialize serial communication
-//   Serial.begin(115200);
+//   Serial.begin(9600);
 //
 //   // initialize device
 //   accelgyro.initialize();
